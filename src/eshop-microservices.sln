@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{45
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{FB995086-E40F-4D8E-8739-028838BDA7C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{F47822F6-5778-4248-98A4-52DF9F788781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{F47822F6-5778-4248-98A4-52DF9F788781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{D7306563-631B-42FF-85E0-221D76CD3A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlock", "BuildingBlock\BuildingBlock.csproj", "{480316C5-CF17-4548-BDAA-46F72912C943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{F47822F6-5778-4248-98A4-52DF9F788781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47822F6-5778-4248-98A4-52DF9F788781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47822F6-5778-4248-98A4-52DF9F788781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480316C5-CF17-4548-BDAA-46F72912C943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480316C5-CF17-4548-BDAA-46F72912C943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480316C5-CF17-4548-BDAA-46F72912C943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480316C5-CF17-4548-BDAA-46F72912C943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FB995086-E40F-4D8E-8739-028838BDA7C0} = {45F6ADF1-01AD-48BC-9C0E-0B69F0CF7D16}
 		{F47822F6-5778-4248-98A4-52DF9F788781} = {FB995086-E40F-4D8E-8739-028838BDA7C0}
+		{480316C5-CF17-4548-BDAA-46F72912C943} = {D7306563-631B-42FF-85E0-221D76CD3A00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38ADAC3D-99E2-4E41-827B-B5B7B1A7CDA4}
